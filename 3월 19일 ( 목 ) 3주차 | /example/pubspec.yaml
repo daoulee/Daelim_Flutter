@@ -1,0 +1,32 @@
+name: example
+description: "3학년 2반 모바일 통합 구현 수업."
+publish_to: 'none'
+
+version: 1.0.0+1 
+#업데이트 할경우 현재 1.0.0.+1 일 경우 1.0.0+2로 
+#첫 번째 1.을 올릴경우 아예 새로운 인간으로 다시 태어남 . 
+#두 번째 0.을 바꿀 경우 기능 추가 했을 경우 . 
+#세 번째 Fixed 버전 , 버그 수정 했을 경우 . / 대부분 이렇게 적용 , 단 이 내용은 회사마다 다를 수 있음 .
+
+environment:  # 이 부분은 dart 버전을 표기함. & 안드로이드 스튜디오도 동일하게 표기되어있음 .
+  sdk: ^3.11.1 # 때문에 Flutter 업그레이드 버전이 나오면, Flutter도 업그레이드 후 다트 버전도 확인(수정) 해야함.
+
+
+dependencies: # 라이브러리를 설치 할 수 있는 공간
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8  
+
+dev_dependencies: #개발용 라이브러리 표시 / Dev 라이브러리가 아닌 일반 라이브러리는 dependencies에 표시해야함 .
+ 
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0 # 규칙을 어기는 코드에 노란 밑줄을 그어줌 .
+
+
+
+flutter:
+  uses-material-design: true
