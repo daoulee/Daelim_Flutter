@@ -23,3 +23,8 @@
   ㄴ progress bar 의 43번 번 
   ㄴ " backgroundColor: Colors.white.withValues(alpha: 0.2)," 앞에 const를 뺀 이유는 
   ㄴ Colors.white << 이 자체가 Constructor 이기 때문에 const를 붙일 수 없음 . >>
+
+### 5주차 ( 4월 2일 )
+✏️ 수업 내용 <br>
+1. bottom_navigation , process_badge 구현.
+<b>📍TO DO _  LIST : 다음 6 주차 수업 전까지 교수님이 주신 목업대로 완성해오기 ( AI 사용 X ) </b>
