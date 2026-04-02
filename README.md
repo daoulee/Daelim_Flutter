@@ -26,5 +26,5 @@
 
 ### 5주차 ( 4월 2일 )
 ✏️ 수업 내용 <br>
-1. bottom_navigation , process_badge 구현.
+1. bottom_navigation , process_badge 구현. <br>
 <b>📍TO DO _  LIST : 다음 6 주차 수업 전까지 교수님이 주신 목업대로 완성해오기 ( AI 사용 X ) </b>
